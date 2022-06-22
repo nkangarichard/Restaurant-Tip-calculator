@@ -108,6 +108,9 @@ struct ContentView: View {
             .navigationTitle("Tip Calculator")
             .toolbar {
                 ToolbarItemGroup(placement: .keyboard) {
+                    
+                    Spacer()
+                    
                     Button("Done") {
                         amountIsFocused = false
                     }
